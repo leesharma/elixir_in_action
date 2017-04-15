@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+APP="todo"
+
+BUILD_HOST=${BUILD_HOST}
+BUILD_USER="builder"
+BUILD_AT="/tmp/edeliver/todo/builds"
+
+#STAGING_HOSTS=${STAGING_HOSTS}
+#STAGING_USER="todo"
+#TEST_AT="/home/todo"
+
+PRODUCTION_HOSTS=${PRODUCTION_HOSTS}
+PRODUCTION_USER="todo"
+DELIVER_TO="/home/todo"

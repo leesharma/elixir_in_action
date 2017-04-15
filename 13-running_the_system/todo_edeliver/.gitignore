@@ -1,0 +1,9 @@
+/_build
+/deps
+erl_crash.dump
+*.ez
+
+/persist
+Mnesia.*
+
+.deliver/releases/
